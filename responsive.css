@@ -4,4 +4,7 @@
   .lesson{
     width: 50%;    
   }
+  .lesson p{
+    color: #eee;
+  }
 }
