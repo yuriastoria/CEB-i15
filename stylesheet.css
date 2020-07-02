@@ -175,12 +175,44 @@ header {
 footer img {
   width: 125px;
 }
-
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
+footer {
+  padding-top: 30px;
+  background-color: #704233;
 }
+footer h4 {
+  color: #fff;
+  padding-bottom: 5px;
+}
+footer p {
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  font-weight: normal;
+  padding-bottom: 5px;
+}
+footer h6 {
+  color: #fff;
+  text-align: right;
+}
+.link-footer {
+    text-align: right;
+}
+a:hover {
+  opacity:0.8;
+}
+footer a {
+  color: white;
+  display: block;
+  font-size: 12px;
+  padding: 2px 0px 0px 0px;
+}
+.fab {
+  margin-right: 3px;
+}
+<<<<<<< HEAD
 
 footer {
   padding-top: 30px;
 }
+=======
+>>>>>>> origin/footer
