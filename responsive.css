@@ -1,0 +1,7 @@
+
+/* 20200702 --YA-- Untuk Tablet device*/
+@media(max-width: 1000px) {
+  .lesson{
+    width: 50%;    
+  }
+}
