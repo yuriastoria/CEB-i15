@@ -48,8 +48,9 @@ a {
   padding: 180px 0 100px 0 ;
   background-image: url("./assets/senja2.jpg");
   background-size: cover;
-  color: white;
+  color: gray;
   text-align: center;
+  height: 50px;
 }
 .top-wrapper h1 {
   font-size: 35px;
@@ -339,3 +340,23 @@ footer a {
 .fab {
   margin-right: 3px;
 }
+
+
+
+/* 
+
+
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+} */
