@@ -30,8 +30,7 @@
   .heading h2 {
     font-size: 35px;
   }
-  
-  
+    
   .top-wrapper {   
     text-align: left;
     background-size: 100% 100%;
@@ -52,7 +51,6 @@
     padding-bottom:0px;
   }
   
-
   .package-wrapper { 
     width: auto;
     height: auto;
@@ -79,8 +77,6 @@
     padding-top: 1299px;
     margin-bottom: auto;
   }
-
-
 
   .form-wrapper {
     border-bottom: 5px solid #eee;
@@ -114,8 +110,6 @@
     text-align: center;
   }
 
-  
-
   footer {
     text-align: center;
     height:auto;
@@ -134,8 +128,6 @@
     font-size: 20px;
   }
 }
-
-
 
 
 /* 20200702 --YA-- Untuk Tablet device*/
