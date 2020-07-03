@@ -9,47 +9,73 @@
   .header-logo p {
     font-size: 20px;
   }
+  .header-right {
+    font-size:20px;
+
+    padding-top:20px;
+    padding-right:5px;
+    display:block;
+    text-align:center;
+  }
+  .header-right a {
+    font-size:20px;
+    padding:15px 15px;
+    text-align:center;
+  }
+
   .heading {
-    padding-top: 10px;
+    padding-top: 100px;
     padding-bottom: 10px;  
   }
   .heading h2 {
-    font-size: 25px;
+    font-size: 35px;
   }
-  
-  .top-wrapper {
+    
+  .top-wrapper {   
     text-align: left;
-    background-size: cover;
+    background-size: 100% 100%;
+    margin-bottom:auto;
+    height:414px;    
   }
-  
   .top-wrapper h1 {
+    color: white;
     font-size: 24px;
-    line-height: 36px;
+    line-height: 34px;
   }
-  
   .top-wrapper p {
     font-size: 18px;
     line-height: 20px;
   }
+  .btn {
+    font-size:25px;
+    padding-bottom:0px;
+  }
   
-
   .package-wrapper { 
     width: auto;
     height: auto;
     padding-bottom: 10px;
   }
   .package h1 {
-    font-size: 20px;
+    padding-top:25px;
+    font-weight:bolder;
+    font-size: 30px;
   }
   .package p {
-    font-size: 18px;
+    font-size: 23px;
+    margin-top:1px;
+  }
+  .package blink {
+    font-size:20px;
+  }
+  .package marquee {
+    font-size:20px;
   }
 
-  .discount {
-    padding-top: 700px;
-    font-size: 10px;
-    text-align: center;
-    font-weight: bold;
+  .discount p {
+    font-size : 15px;
+    padding-top: 1299px;
+    margin-bottom: auto;
   }
 
   .form-wrapper {
@@ -60,13 +86,14 @@
     text-align: left;
   }
   .form-wrapper p{
-    font-size: 12px;
+    font-size: 18px;
+    font-weight:bolder
   } 
   input , textarea {
     width:150px;
     margin:0px 0px 5px 0px;
     padding:4px;
-    font-size:10px;
+    font-size:16px;
     border:none;
     border-radius: 2px;
     background: #edab97;
@@ -75,14 +102,12 @@
   }
 
   .message {
-   
+   font-size:20px;
     padding: 12px 24px;
     display: inline-block;
     opacity: 0.8;
     border-radius: 4px;
     text-align: center;
-}
-
   }
 
   footer {
@@ -103,8 +128,6 @@
     font-size: 20px;
   }
 }
-
-
 
 
 /* 20200702 --YA-- Untuk Tablet device*/
@@ -137,12 +160,16 @@
   
   .top-wrapper {
     text-align: left;
-    background-size: cover;
+    background-size: 100% 90%;
+    margin-bottom:auto;
+    height:395px;    
   }
   
   .top-wrapper h1 {
+    margin-top:10px;
     font-size: 14px;
-    line-height: 36px;
+    line-height: 13px;
+    color: white;
   }
   
   .top-wrapper p {
@@ -150,14 +177,33 @@
     line-height: 20px;
   }
   
+  .heading {
+    padding-top: 20px;
+  }
   .heading h2 {
     font-size: 20px;
   }
 
-  .package-wrapper { 
+  .package-wrapper {
+    height: 1055px; 
     width: 100%;
+    background-size: 100% 100%;
   }
-  
+  .package h1 {
+    padding-top:25px;
+    font-weight:bolder;
+    font-size: 20px;
+  }
+  .package p {
+    font-size: 17px;
+    margin-top:1px;
+  }
+
+  .discount p {
+    font-size : 15px;
+    padding-top: 915px;
+    margin-bottom: auto;
+  }
 
   .form-wrapper {
     border-bottom: auto solid #eee;
@@ -185,6 +231,9 @@
 
   footer {
     text-align: center;
+  }
+  .footer-right {
+    padding-right: 5px;
   }
 }
 
@@ -220,12 +269,16 @@
   
   .top-wrapper {
     text-align: left;
-    background-size: cover;
+    background-size: 100% 90%;
+    margin-bottom:auto;
+    height:395px;    
   }
   
   .top-wrapper h1 {
+    margin-top:10px;
     font-size: 14px;
-    line-height: 36px;
+    line-height: 13px;
+    color: white;
   }
   
   .top-wrapper p {
@@ -233,14 +286,28 @@
     line-height: 20px;
   }
   
+  .heading {
+    padding-top: 20px;
+  }
   .heading h2 {
     font-size: 20px;
+    padding-bottom: 10px;
   }
 
-  .package-wrapper { 
+  .package-wrapper {
+    height: 1090px; 
     width: 100%;
+    background-size: 100% 100%;
   }
-  
+  .package h1 {
+    padding-top:20px;
+    font-weight:900;
+  }
+
+  .discount p {
+    font-size: 12px;
+    padding-top: 935px;
+  }
 
   .form-wrapper {
     border-bottom: auto solid #eee;
@@ -268,5 +335,8 @@
 
   footer {
     text-align: center;
+  }
+  .footer-right {
+    padding-right: 5px;
   }
 }
