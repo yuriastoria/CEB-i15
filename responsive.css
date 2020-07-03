@@ -1,24 +1,120 @@
-/* 20200702 --YA-- Untuk Tablet device*/
-@media all and (max-width: 1000px) {
+/* 20200702 --YA-- Untuk Tablet lebih dari 1000px device*/
+@media all and (min-width: 1001px) {
   .top-wrapper h1 {
     font-size: 32px;
   }
-
-  .heading h2 {
+  .menu-icon {
+    display: none;
+  }
+  .header-logo p {
     font-size: 20px;
   }
-  
-  .lesson {
-    width: 50%;
-    margin-bottom: 50px;
+  .heading {
+    padding-top: 10px;
+    padding-bottom: 10px;  
+  }
+  .heading h2 {
+    font-size: 25px;
   }
   
+  .top-wrapper {
+    text-align: left;
+    background-size: cover;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  
+
+  .package-wrapper { 
+    width: auto;
+    height: auto;
+    padding-bottom: 10px;
+  }
+  .package h1 {
+    font-size: 20px;
+  }
+  .package p {
+    font-size: 18px;
+  }
+
+  .discount {
+    padding-top: 700px;
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .form-wrapper {
+    border-bottom: 5px solid #eee;
+    margin-bottom: auto;
+    text-align: center;
+    height: auto;
+    text-align: left;
+  }
+  .form-wrapper p{
+    font-size: 12px;
+  } 
+  input , textarea {
+    width:150px;
+    margin:0px 0px 5px 0px;
+    padding:4px;
+    font-size:10px;
+    border:none;
+    border-radius: 2px;
+    background: #edab97;
+    opacity: 0.7;
+    color: #fff;
+  }
+
+  .message {
+   
+    padding: 12px 24px;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+
+  }
+
+  footer {
+    text-align: center;
+    height:auto;
+    padding-bottom: 2px;
+  }
+  .footer-right  {
+    font-size: 20px;
+  }
+  .footer-right a {
+    font-size: 15px;
+  }
+  .footer-right p {
+    font-size: 20px;
+  }
+  .footer-left h4 {
+    font-size: 20px;
+  }
 }
 
 
 
-/* 20200702 --YA-- Untuk Handphone device*/
-@media all and (max-width: 670px) {
+
+/* 20200702 --YA-- Untuk Tablet device*/
+@media all and (max-width: 1000px) {
+  .container {
+    padding-right: 0px
+  }
+  .header-logo p {
+    font-size: 20px;
+  }
   .header-right {
     display: none;
   }
@@ -45,7 +141,7 @@
   }
   
   .top-wrapper h1 {
-    font-size: 24px;
+    font-size: 14px;
     line-height: 36px;
   }
   
@@ -54,17 +150,94 @@
     line-height: 20px;
   }
   
-  .lessons h2 {
-    font-size: 14px;
+  .heading h2 {
+    font-size: 20px;
   }
-  .lessons p {
+
+  .package-wrapper { 
+    width: 100%;
+  }
+  
+
+  .form-wrapper {
+    border-bottom: auto solid #eee;
+    margin-bottom: auto;
+    text-align: center;
+    height: auto;
+    text-align: left;
+  }
+  .form-wrapper p{
     font-size: 12px;
+  } 
+  input , textarea {
+    width:150px;
+    margin:0px 0px 5px 0px;
+    padding:4px;
+    font-size:10px;
+    border:none;
+    border-radius: 2px;
+    background: #edab97;
+    opacity: 0.7;
+    color: #fff;
   }
-  .lessons img {
-    width: 50%;
-    height: 50%;
+
+
+
+  footer {
+    text-align: center;
   }
-  .lesson {
+}
+
+
+
+/* 20200702 --YA-- Untuk Handphone device*/
+@media all and (max-width: 670px) {
+  .container {
+    padding-right: 0px
+  }
+  .header-logo p {
+    font-size: 20px;
+  }
+  .header-right {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: block;
+  }
+  
+  .fa {
+    display: block;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper {
+    text-align: left;
+    background-size: cover;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 14px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+  }
+
+  .package-wrapper { 
     width: 100%;
   }
   

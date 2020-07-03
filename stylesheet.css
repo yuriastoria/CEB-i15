@@ -6,9 +6,7 @@
 body {
   margin: 0;
   font-family: "Raleway";
-  /* background-image: url('./assets/Simple-Vector-Abstract-Waves-Background-Orange.jpg'); */
   
-  background-size: cover;
 }
 
 a {
@@ -26,7 +24,7 @@ a {
   margin: 0 auto;
 }
 
-.top-wrapper {
+/* .top-wrapper {
   padding: 180px 0 100px 0;
   background-image: url('./assets/honeymoon1.jpeg');
   background-size: cover;
@@ -44,7 +42,22 @@ a {
 .top-wrapper p {
   opacity: 0.7;
   margin-bottom: 3px;
+} */
+
+.top-wrapper {
+  padding: 180px 0 100px 0 ;
+  background-image: url("./assets/senja2.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
 }
+.top-wrapper h1 {
+  font-size: 35px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
 
 .btn-wrapper {
   text-align: center;
@@ -86,7 +99,7 @@ a {
 }
 
 
-header {
+/* header {
   height: 65px;
   width: 100%;
   background-color: rgba(34, 49, 52, 0.9);
@@ -120,7 +133,45 @@ header {
 
 .header-right a:hover {
   background-color: rgba(255, 255, 255, 0.3);
+} */
+
+li {
+  list-style: none;
+  float: left;
+  padding: 10px 100px 15px 5px;
+  font-size: 20px;
 }
+
+.header {
+  background-color: #edab97;
+  color: #704233;
+  height: 70px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 50px;
+  padding: 5px 100px;
+}
+
+.header-list {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-list a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-list a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
 
 /* Tambahkan CSS untuk menu-icon */
 .menu-icon {
@@ -134,8 +185,8 @@ header {
 
 
 .package-wrapper {
-  /* background-image: url('./assets/honeymoon1.jpeg'); */
-  
+  background-image: url('./assets/Simple-Vector-Abstract-Waves-Background-Orange.jpg');
+  background-size: cover; 
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
@@ -174,12 +225,7 @@ h1 {
   font-size: 20px;
 }
 
-.lesson-icon p {
-  position: absolute;
-  top: 44%;
-  width: 100%;
-  color: white;
-}
+
 .text-contents {
   width: 80%;
   display: inline-block;
@@ -246,9 +292,7 @@ input , textarea {
 }
 
 
-footer img {
-  width: 125px;
-}
+
 footer {
   padding-top: 3px;
   background-color: #704233;
@@ -259,7 +303,7 @@ footer {
   line-height: 45px
 }
 .footer-right {
-  float-right;
+  float: center;
   line-height: 15px;
   padding-top: 10px;
 }
