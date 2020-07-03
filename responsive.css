@@ -12,6 +12,7 @@
     width: 50%;
     margin-bottom: 50px;
   }
+  
 }
 
 
@@ -26,6 +27,10 @@
     display: block;
   }
   
+  .fa {
+    display: block;
+  }
+
   .btn {
     width: 100%;
   }
@@ -36,6 +41,7 @@
   
   .top-wrapper {
     text-align: left;
+    background-size: cover;
   }
   
   .top-wrapper h1 {
@@ -48,10 +54,45 @@
     line-height: 20px;
   }
   
+  .lessons h2 {
+    font-size: 14px;
+  }
+  .lessons p {
+    font-size: 12px;
+  }
+  .lessons img {
+    width: 50%;
+    height: 50%;
+  }
   .lesson {
     width: 100%;
   }
   
+
+  .form-wrapper {
+    border-bottom: auto solid #eee;
+    margin-bottom: auto;
+    text-align: center;
+    height: auto;
+    text-align: left;
+  }
+  .form-wrapper p{
+    font-size: 12px;
+  } 
+  input , textarea {
+    width:150px;
+    margin:0px 0px 5px 0px;
+    padding:4px;
+    font-size:10px;
+    border:none;
+    border-radius: 2px;
+    background: #edab97;
+    opacity: 0.7;
+    color: #fff;
+  }
+
+
+
   footer {
     text-align: center;
   }
