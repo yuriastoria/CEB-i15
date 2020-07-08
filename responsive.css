@@ -87,8 +87,14 @@
   }
   .form-wrapper p{
     font-size: 18px;
-    font-weight:bolder
+    font-weight:bolder;
+    color: black;
   } 
+  .form-wrapper h3{
+    color: black;
+  }
+   
+  
   input , textarea {
     width:150px;
     margin:0px 0px 5px 0px;
