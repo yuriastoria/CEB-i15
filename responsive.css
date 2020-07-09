@@ -255,18 +255,22 @@
     padding-right: 0px
   }
   .header-logo p {
-    font-size: 20px;
+    font-size: 15px;
   }
   .header-right {
     display: none;
   }
+  .header-left p{
+    font-size: 15px;
+  }
   
   .menu-icon {
-    display: block;
+    display: inline;
+    padding-top: 23px;
   }
   
   .fa {
-    display: block;
+    display: inline;
   }
 
   .btn {
